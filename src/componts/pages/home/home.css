@@ -1,0 +1,45 @@
+.home-card{
+    padding-top: 5%;
+    height: 100vh;
+    background-color: #f4f3f2;
+    display: flex;
+}
+
+.contaner-content {
+    width: 50vw;
+    text-align: left;
+    padding: 10PX;  
+    display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.ch{
+    text-align: left;
+}
+
+.home-title{
+ margin:20px 0 ;
+}
+.home-content{
+    margin:20px 0  ;
+}
+.home-title h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.home-title h1 span {
+    color: orange;
+}
+
+
+.contaner-Offers {
+    height:100%;
+    width: 50vw;
+    justify-content: space-around;
+    display:flex;
+    flex-wrap: wrap;
+    background: url('https://zone-restaurant.vercel.app/static/media/hero-bg.c43c4862422e70d88698.png') top right ;
+    background-repeat: no-repeat;
+    background-size: 25vw;
+  }
+/* //////////// */

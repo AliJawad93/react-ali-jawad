@@ -1,0 +1,30 @@
+.nav-bar {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);   
+}
+
+.b {
+ background-color: orange;
+ height: 100vh;
+ width: 100vw;
+
+}
+
+.zoom-in-out {
+    font-weight: 500;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.zoom-in-out:hover {
+    transform: scale(1.1);
+}
+
+.btn-outline {
+    border: 1px solid #ebebeb;
+    color: black;
+    padding: 5px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: transparent;
+}
